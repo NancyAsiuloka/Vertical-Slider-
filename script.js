@@ -7,4 +7,4 @@ const slidesLength = slideRight.querySelectorAll('div').length;
 
 let activeSlideIndex = 0;
 
-slideLeft.getElementsByClassName.top = `-${(slidesLength - 1) * 100}vh`;
+slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`;

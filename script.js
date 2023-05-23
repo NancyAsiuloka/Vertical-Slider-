@@ -3,6 +3,8 @@ const slideRight = document.querySelector('.right-slide');
 const slideLeft = document.querySelector('.left-slide');
 const upButton = document.querySelector('.up-button');
 const downButton = document.querySelector('.down-button');
-const slidesLength = document.querySelectorAll('.div').length;
+const slidesLength = slideRight.querySelectorAll('div').length;
 
-console.log(slidesLength);
+let activeSlideIndex = 0;
+
+slideLeft.getElementsByClassName.top = `-${(slidesLength - 1) * 100}vh`;
